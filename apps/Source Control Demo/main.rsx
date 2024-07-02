@@ -8,6 +8,7 @@
     sticky={null}
     type="main"
   >
+    <Text id="text1" value="##  Users Table" verticalAlign="center" />
     <Table
       id="table1"
       cellSelection="none"
