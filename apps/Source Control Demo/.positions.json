@@ -5,15 +5,21 @@
     "height": 1,
     "width": 2
   },
+  "button2": {
+    "row": 15.2,
+    "col": 7,
+    "height": 1,
+    "width": 2
+  },
   "checkbox1": {
     "container": "form1",
-    "row": 3,
+    "row": 0.6,
     "height": 0.6,
     "width": 12
   },
   "date1": {
     "container": "form1",
-    "row": 4,
+    "row": 1.2,
     "height": 0.2,
     "width": 12
   },
@@ -38,7 +44,7 @@
   },
   "multiselect1": {
     "container": "form1",
-    "row": 5,
+    "row": 1.4,
     "height": 0.2,
     "width": 12
   },
@@ -49,13 +55,13 @@
   },
   "select1": {
     "container": "form1",
-    "row": 1,
+    "row": 0.2,
     "height": 0.2,
     "width": 12
   },
   "select2": {
     "container": "form1",
-    "row": 2,
+    "row": 0.4,
     "height": 0.2,
     "width": 12
   },
@@ -72,13 +78,13 @@
   },
   "textArea1": {
     "container": "form1",
-    "row": 7,
+    "row": 1.8,
     "height": 1,
     "width": 12
   },
   "textInput1": {
     "container": "form1",
-    "row": 6,
+    "row": 1.6,
     "height": 0.2,
     "width": 12
   }

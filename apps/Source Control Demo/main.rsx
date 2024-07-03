@@ -292,5 +292,6 @@
         />
       </Footer>
     </Form>
+    <Button id="button2" text="Button" />
   </Frame>
 </App>
