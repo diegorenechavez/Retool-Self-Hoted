@@ -161,5 +161,136 @@
       </ToolbarButton>
     </Table>
     <Button id="button1" text="Button" />
+    <Form
+      id="form1"
+      footerPadding="4px 12px"
+      headerPadding="4px 12px"
+      initialData="{{ table1.selectedRow }}"
+      padding="12px"
+      requireValidation={true}
+      resetAfterSubmit={true}
+      scroll={true}
+      showBody={true}
+      showFooter={true}
+      showHeader={true}
+    >
+      <Header>
+        <Text id="formTitle1" value="#### Form title" verticalAlign="center" />
+      </Header>
+      <Body>
+        <NumberInput
+          id="numberInput1"
+          currency="USD"
+          formDataKey="id"
+          inputValue={0}
+          label="ID"
+          labelPosition="top"
+          placeholder="Enter value"
+          required={true}
+          showSeparators={true}
+          showStepper={true}
+          value={0}
+        />
+        <Select
+          id="select1"
+          emptyMessage="No options"
+          formDataKey="email"
+          itemMode="static"
+          label="User"
+          labelPosition="top"
+          labels={null}
+          overlayMaxHeight={375}
+          placeholder="Select an option"
+          required={true}
+          showSelectionIndicator={true}
+          values={null}
+        >
+          <Option id="05380" value="Option 1" />
+          <Option id="f4ccf" value="Option 2" />
+          <Option id="dd36f" value="Option 3" />
+        </Select>
+        <Select
+          id="select2"
+          emptyMessage="No options"
+          formDataKey="role"
+          itemMode="static"
+          label="Role"
+          labelPosition="top"
+          labels={null}
+          overlayMaxHeight={375}
+          placeholder="Select an option"
+          required={true}
+          showSelectionIndicator={true}
+          values={null}
+        >
+          <Option id="05380" value="Option 1" />
+          <Option id="f4ccf" value="Option 2" />
+          <Option id="dd36f" value="Option 3" />
+        </Select>
+        <Checkbox
+          id="checkbox1"
+          formDataKey="enabled"
+          label="Enabled"
+          required={true}
+        />
+        <Date
+          id="date1"
+          dateFormat="MMM d, yyyy"
+          datePlaceholder="{{ self.dateFormat.toUpperCase() }}"
+          formDataKey="createdAt"
+          iconBefore="bold/interface-calendar"
+          label="Created at"
+          labelPosition="top"
+          required={true}
+          value="{{ new Date() }}"
+        />
+        <Multiselect
+          id="multiselect1"
+          emptyMessage="No options"
+          formDataKey="teams"
+          itemMode="static"
+          label="Teams"
+          labelPosition="top"
+          labels={null}
+          overlayMaxHeight={375}
+          placeholder="Select options"
+          required={true}
+          showSelectionIndicator={true}
+          values={null}
+          wrapTags={true}
+        >
+          <Option id="95593" value="Option 1" />
+          <Option id="56e02" value="Option 2" />
+          <Option id="d60a2" value="Option 3" />
+        </Multiselect>
+        <TextInput
+          id="textInput1"
+          formDataKey="website"
+          label="Website"
+          labelPosition="top"
+          patternType="url"
+          placeholder="retool.com"
+          required={true}
+          textBefore="https://"
+        />
+        <TextArea
+          id="textArea1"
+          autoResize={true}
+          formDataKey="text"
+          label="Bio"
+          minLines={2}
+          placeholder="Enter value"
+          required={true}
+        />
+      </Body>
+      <Footer>
+        <Button
+          id="formButton1"
+          submit={true}
+          submitTargetId="form1"
+          text="Submit"
+        />
+      </Footer>
+    </Form>
   </Frame>
 </App>
