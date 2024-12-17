@@ -293,5 +293,10 @@
       </Footer>
     </Form>
     <Button id="button2" text="Button" />
+    <Image
+      id="image1"
+      horizontalAlign="center"
+      src="https://picsum.photos/id/1025/800/600"
+    />
   </Frame>
 </App>
