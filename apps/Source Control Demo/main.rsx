@@ -298,5 +298,6 @@
       horizontalAlign="center"
       src="https://picsum.photos/id/1025/800/600"
     />
+    <ProgressCircle id="progressCircle1" horizontalAlign="center" value={60} />
   </Frame>
 </App>
