@@ -59,6 +59,12 @@
     "height": 0.2,
     "width": 12
   },
+  "progressCircle1": {
+    "row": 18,
+    "col": 8,
+    "height": 2,
+    "width": 2
+  },
   "select1": {
     "container": "form1",
     "row": 0.2,
