@@ -299,5 +299,12 @@
       src="https://picsum.photos/id/1025/800/600"
     />
     <ProgressCircle id="progressCircle1" horizontalAlign="center" value={60} />
+    <Rating
+      id="rating1"
+      allowHalf={true}
+      labelPosition="top"
+      max={5}
+      value={4.5}
+    />
   </Frame>
 </App>
